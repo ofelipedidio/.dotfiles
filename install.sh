@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 pushd $DOTFILES
 
 for folder in $(sed 's/,/ /g' <<< $STOW_FOLDERS)
