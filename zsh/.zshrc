@@ -11,3 +11,5 @@ if [[ $TMUX ]]; then
   alias clear='clear && tmux clear-history'
 fi
 
+source ~/.zshconfig
+
